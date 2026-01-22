@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ChoreApp from '../components/ChoreApp.vue';
+---
+
+<Layout title="Choar - Chore Tracker">
+  <main>
+    <ChoreApp client:load />
+  </main>
+</Layout>
+
+<style>
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+</style>

@@ -1,0 +1,27 @@
+{
+  "name": "choar",
+  "version": "1.0.0",
+  "description": "Single-page web app to help keep on top of moar chores",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "bddgen && playwright test",
+    "test:ui": "bddgen && playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/vue": "^5.1.4",
+    "astro": "^5.16.11",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.27"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.5.0",
+    "@playwright/test": "^1.57.0",
+    "playwright-bdd": "^8.4.2"
+  }
+}
